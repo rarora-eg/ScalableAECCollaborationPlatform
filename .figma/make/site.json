@@ -1,0 +1,10 @@
+{
+  "description": "A collaborative platform for AEC professionals enabling role-based project management, model viewing, document sharing, AI-driven user classification, and bid tracking.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

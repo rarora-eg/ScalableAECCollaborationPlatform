@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-navy: #0D1B2A;
+  --color-navy-mid: #1A2E45;
+  --color-navy-light: #243B55;
+  --color-slate: #3E5068;
+  --color-steel: #6B7FA3;
+  --color-mist: #EDF2F7;
+  --color-accent: #1A6FD4;
+  --color-accent-bright: #2B8BE8;
+  --color-amber: #E07B27;
+  --color-crimson: #C0392B;
+  --color-emerald: #1D7A4A;
+  --color-violet: #6B3FA0;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3E5068 transparent;
+}
+
+*::-webkit-scrollbar { width: 6px; height: 6px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb { background: #3E5068; border-radius: 3px; }
+
+body {
+  font-family: var(--font-sans);
+  background: #0D1B2A;
+  color: #EDF2F7;
+}
